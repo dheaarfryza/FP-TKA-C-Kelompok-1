@@ -12,8 +12,13 @@
 
 ## Daftar Isi
 [i. Introduction](#intro)
+
 [ii. Arsitektur Komputasi Awan dan Tabel Harga](#rancangan)
+
 [iii. Langkah-langkah Implementasi dan Konfigurasi](#implementasi)
+
 [iv. Hasil Pengujian Endpoint setiap API](#endpoint)
+
 [v. Hasil Pengujian dan Analisis Loadtesting Dengan Locust](#locust)
+
 [vi. Kesimpulan dan Saran](#kesimpulandansaran)
