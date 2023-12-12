@@ -15,6 +15,8 @@
 
 [ii. Arsitektur Komputasi Awan dan Tabel Harga](#rancangan)
 
+![fp-Halaman-2 drawio](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/c78fe2f9-ab92-4dda-95d6-1798ee52fea0)
+
 [iii. Langkah-langkah Implementasi dan Konfigurasi](#implementasi)
 
 [iv. Hasil Pengujian Endpoint setiap API](#endpoint)
