@@ -11,9 +11,9 @@
 |Dhea Arfryza Ananda P. | 5027211013 |
 
 
-[i. Introduction](#intro)
+## i. Introduction
 
-[ii. Arsitektur Komputasi Awan dan Tabel Harga](#rancangan)
+## ii. Arsitektur Komputasi Awan dan Tabel Harga
 
 Berikut merupakan Rancangan Arsitektur Komputasi Awan beserta Spesifikasi dan Harga nya.
 
@@ -30,17 +30,15 @@ Berikut merupakan Rancangan Arsitektur Komputasi Awan beserta Spesifikasi dan Ha
 | 9 | db-server | 2 vCPU, 2 GB Memory | Database Server | $6 |
 |  | |  | Total | $64 |
 
-
-
 Berikut merupakan gambaran diagram Arsitektur Komputasi yang telah ditentukan.
 
 ![clouddddddd-Halaman-2 drawio](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/a15285ff-d4be-4486-abb0-7ae0830ac1d1)
 
 
-[iii. Langkah-langkah Implementasi dan Konfigurasi](#implementasi)
+## iii. Langkah-langkah Implementasi dan Konfigurasi
 
-[iv. Hasil Pengujian Endpoint setiap API](#endpoint)
+## iv. Hasil Pengujian Endpoint setiap API
 
-[v. Hasil Pengujian dan Analisis Loadtesting Dengan Locust](#locust)
+## v. Hasil Pengujian dan Analisis Loadtesting Dengan Locust
 
 [vi. Kesimpulan dan Saran](#kesimpulandansaran)
