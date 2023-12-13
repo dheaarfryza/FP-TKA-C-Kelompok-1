@@ -10,23 +10,27 @@
 |Dyas Amorita R. N. | 5027211009 |
 |Dhea Arfryza Ananda P. | 5027211013 |
 
-## Daftar Isi
+
 [i. Introduction](#intro)
 
 [ii. Arsitektur Komputasi Awan dan Tabel Harga](#rancangan)
 
+Berikut merupakan Rancangan Arsitektur Komputasi Awan beserta Spesifikasi dan Harga nya.
+
 | No. | Nama | Spesifikasi | Fungsi | Harga/bulan |
 |---|------------|-----------------|-------|----|
-| 1 | worker-1 | 1 vCPU, 2 GB Memory | App Worker | $12 |
-| 2 | worker-2 | 1 vCPU, 2 GB Memory | App Worker | $12 |
-| 3 | worker-3 | 1 vCPU, 2 GB Memory | App Worker | $12 |
-| 4 | db-server-1 | 2 vCPU, 2 GB Memory | Database Server | $18 |
-| 5 | load-balancer | 1 vCPU, 1 GB Memory | Load Balancer | $6 |
-| 6 | storage-tka-1 | - | Space Storage | $5 |
-| Total | | | | $65 |
+| 1 | worker-1 | 1 vCPU, 1 GB Memory | App Worker | $6 |
+| 2 | worker-2 | 1 vCPU, 1 GB Memory | App Worker | $6 |
+| 3 | worker-3 | 1 vCPU, 1 GB Memory | App Worker | $6 |
+| 4 | worker-4 | 1 vCPU, 1 GB Memory | App Worker | $6 |
+| 5 | worker-5 | 1 vCPU, 1 GB Memory | App Worker | $6 |
+| 6 | worker-6 | 1 vCPU, 1 GB Memory | App Worker | $6 |
+| 7 | worker-7 | 1 vCPU, 1 GB Memory | App Worker | $6 |
+| 8 | load-balancer | 1 vCPU, 2 GB Memory | Load Balancer | $16 |
+| 9 | db-server | 2 vCPU, 2 GB Memory | Database Server | $6 |
+|  | |  | Total | $64 |
 
 
-![fp-Halaman-2 drawio](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/c78fe2f9-ab92-4dda-95d6-1798ee52fea0)
 
 [iii. Langkah-langkah Implementasi dan Konfigurasi](#implementasi)
 
