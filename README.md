@@ -41,4 +41,4 @@ Berikut merupakan gambaran diagram Arsitektur Komputasi yang telah ditentukan.
 
 ## v. Hasil Pengujian dan Analisis Loadtesting Dengan Locust
 
-[vi. Kesimpulan dan Saran](#kesimpulandansaran)
+## vi. Kesimpulan dan Saran
