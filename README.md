@@ -31,6 +31,10 @@ Berikut merupakan Rancangan Arsitektur Komputasi Awan beserta Spesifikasi dan Ha
 |  | |  | Total | $64 |
 
 
+Berikut merupakan gambaran diagram Arsitektur Komputasi yang telah ditentukan.
+
+![clouddddddd-Halaman-2 drawio](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/a15285ff-d4be-4486-abb0-7ae0830ac1d1)
+
 
 [iii. Langkah-langkah Implementasi dan Konfigurasi](#implementasi)
 
