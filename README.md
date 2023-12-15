@@ -13,6 +13,10 @@
 
 ## i. Introduction
 
+
+### Problem
+Saat kami melakukan testing, ada beberapa error not found pada endpoint ini pak, padahal order_id tersebut ada pada collection di database.
+
 ## ii. Arsitektur Komputasi Awan dan Tabel Harga
 
 ### Case 1
