@@ -168,7 +168,7 @@ Berikut adala hasil pengujian setiap endpoint menggunakan postman:
 
 Spawn rate 25 dan durasi waktu load testing 60 detik
 
-![Gambar WhatsApp 2023-12-13 pukul 11 11 01_04a1452e](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/2097238d-c3dd-4931-8fdf-5616c6255891)
+![Gambar WhatsApp 2023-12-15 pukul 15 14 32_43019490](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/0104e8ff-3591-4c48-8a22-a16aedb76c3d)
 
 Hasil RPS berdasarkan pengujian tersebut adalah `663.8`
 
