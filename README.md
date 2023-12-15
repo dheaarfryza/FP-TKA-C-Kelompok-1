@@ -17,8 +17,8 @@
 ### Problem
 Saat kami melakukan testing, ada beberapa error not found pada endpoint, padahal order_id tersebut ada pada collection di 
 
-d![Gambar WhatsApp 2023-12-13 pukul 11 17 40_51352f67](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/4c5e69ec-9ff9-46f3-aaa1-a5ea40c6ad5e)
-atabase.
+![Gambar WhatsApp 2023-12-13 pukul 11 17 40_51352f67](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/4c5e69ec-9ff9-46f3-aaa1-a5ea40c6ad5e)
+
 
 ## ii. Arsitektur Komputasi Awan dan Tabel Harga
 
