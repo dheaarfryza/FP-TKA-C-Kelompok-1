@@ -127,7 +127,7 @@ Berikut merupakan Rancangan Arsitektur Komputasi Awan beserta Spesifikasi dan Ha
 | 6 | worker-6 | 1 vCPU, 1 GB Memory | App Worker | $6 |
 | 7 | worker-7 | 1 vCPU, 1 GB Memory | App Worker | $6 |
 | 8 | load-balancer | 1 vCPU, 2 GB Memory | Load Balancer | $16 |
-| 9 | db-server | 2 vCPU, 2 GB Memory | Database Server | $6 |
+| 9 | db-server | 1 vCPU, 2 GB Memory | Database Server | $6 |
 |  | |  | Total | $64 |
 
 Berikut merupakan gambaran diagram Arsitektur Komputasi yang telah ditentukan.
@@ -138,6 +138,14 @@ Berikut merupakan gambaran diagram Arsitektur Komputasi yang telah ditentukan.
 Saat kami melakukan testing, ada beberapa error not found pada endpoint, padahal order_id tersebut ada pada collection di database
 
 ![Gambar WhatsApp 2023-12-13 pukul 11 17 40_51352f67](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/4c5e69ec-9ff9-46f3-aaa1-a5ea40c6ad5e)
+
+Berdasarkan uji coba dari topologi 1 dengan htop, ditemukan bahwa ketiga worker mendapakan beban yang besar seperti yang ditunjukkan oleh gambar berikut, 
+
+![Gambar WhatsApp 2023-12-12 pukul 22 10 38_1a98c749](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/bda7f517-4e2d-4193-9e8b-42b4b414ecb3)
+
+Kemudian dari gambar berikut juga terlihat jika terdapat overkill pada database
+
+![Gambar WhatsApp 2023-12-12 pukul 22 11 44_37bf0e38](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/deb0ba2e-cff6-479d-a27c-5b3857241288)
 
 
 ## iii. Langkah-langkah Implementasi dan Konfigurasi
