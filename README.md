@@ -142,6 +142,13 @@ Saat kami melakukan testing, ada beberapa error not found pada endpoint, padahal
 
 ## iii. Langkah-langkah Implementasi dan Konfigurasi
 
+Pada komputasi awan kami menggunakan platform DigitalOcean, dengan langkah-langkah sebagai berikut.
+
+1. Create Droplet
+   
+![Cuplikan layar 2023-12-15 152623aaa](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/12bfd0d6-9488-45dc-8dde-f24521c49b97)
+
+
 Untuk memudahkan deployment kita menggunakan Docker di setiap droplets, untuk config selengkapnya dapat diakses melalui source code berikut:
 
 - Database
