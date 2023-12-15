@@ -197,4 +197,6 @@ Hasil RPS berdasarkan pengujian tersebut adalah `843.9`
 
 ## vi. Kesimpulan dan Saran
 
+Berdasarkan uji coba dari topologi 1 dengan htop, ditemukan bahwa ketiga worker mendapakan beban yang berat, selain itu penyimpanan pada storage tidak terpakai, sehingga jadi terbuang.
 
+Hal tersebut tentu dapat mempengaruhi kinerja dari sistem. Untuk mengatasinya, maka kami menambahkan jumlah worker yang tadinya 3 menjadi 7 worker. Spesifikasi dan jenis worker juga disesuaikan supaya idak melibihi budget yang diberikan, spesifikasi worker pada topologi baru adalah 1 vCPU, 1 GB Memory dengan harga $6 untuk tiap worker. Hasilnya adalah pembagian kerja yang rata.
