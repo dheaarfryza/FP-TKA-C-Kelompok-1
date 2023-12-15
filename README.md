@@ -164,5 +164,20 @@ Berikut adala hasil pengujian setiap endpoint menggunakan postman:
 
 ## v. Hasil Pengujian dan Analisis Loadtesting Dengan Locust
 
+### Hasil Pengujian Locust pada topologi 1:
+
+![Gambar WhatsApp 2023-12-13 pukul 11 11 01_04a1452e](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/2097238d-c3dd-4931-8fdf-5616c6255891)
+
+Hasil RPS berdasarkan pengujian tersebut adalah `663.8`
+
+### Hasil Pengujian Locust pada topologi 2:
+
+![Gambar WhatsApp 2023-12-15 pukul 15 05 17_2bb4b594](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/fb2ed283-2503-4711-b393-7d3b8d9b88e3)
+
+![Gambar WhatsApp 2023-12-15 pukul 15 05 17_2bb4b594](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/fb2ed283-2503-4711-b393-7d3b8d9b88e3)
+
+Hasil RPS topologi 2 berdasarkan pengujian tersebut adalah `1413.4`
+
+
 
 ## vi. Kesimpulan dan Saran
