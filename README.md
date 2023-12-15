@@ -190,11 +190,4 @@ Hasil RPS topologi 2 berdasarkan pengujian tersebut adalah `1413.4`
 
 ## vi. Kesimpulan dan Saran
 
-Berdasarkan uji coba dari topologi 1, ditemukan bahwa ketiga worker mendapakan beban yang besar seperti yang ditunjukkan oleh gambar berikut, 
 
-![Gambar WhatsApp 2023-12-12 pukul 22 10 38_1a98c749](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/bda7f517-4e2d-4193-9e8b-42b4b414ecb3)
-
-
-hal tersebut tentu dapat mempengaruhi kinerja dari sistem. Untuk mengatasinya, maka kami menambahkan jumlah worker yang tadinya 3 menjadi 7 worker. Spesifikasi dan jenis worker juga disesuaikan supaya idak melibihi budget yang diberikan, spesifikasi worker pada topologi baru adalah 1 vCPU, 1 GB Memory dengan harga $6 untuk tiap worker.
-
-![Gambar WhatsApp 2023-12-12 pukul 22 11 44_37bf0e38](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/deb0ba2e-cff6-479d-a27c-5b3857241288)
