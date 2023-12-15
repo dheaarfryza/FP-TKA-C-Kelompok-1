@@ -13,6 +13,88 @@
 
 ## i. Introduction
 
+Dalam Final Project ini, kami diminta untuk mendesain arsitektur cloud terbaik yang sesuai dengan kebutuhan sebuah aplikasi berbasis API. Dimana dana maksimal yang diberikan adalah 1 juta rupiah per bulan (65 US$). Spesifikasi aplikasi yang diminta adalah sebagai berikut:
+## Endpoints:
+
+1. **Get All Orders**
+   - **Endpoint:** `GET /orders`
+   - **Description:** Retrieve a list of all orders.
+   - **Response:**
+     ```json
+     {
+       "orders": [
+         {"_id": "order_id_1", "product": "Product1", "quantity": 5, "customer_name": "John Doe", "customer_address": "123 Main St"},
+         {"_id": "order_id_2", "product": "Product2", "quantity": 3, "customer_name": "Jane Smith", "customer_address": "456 Oak St"},
+         // ...
+       ]
+     }
+     ```
+
+2. **Get a Specific Order by ID**
+   - **Endpoint:** `GET /orders/<order_id>`
+   - **Description:** Retrieve details of a specific order by its ID.
+   - **Response:**
+     ```json
+     {
+       "order": {"_id": "order_id", "product": "ProductX", "quantity": 8, "customer_name": "Alice Johnson", "customer_address": "789 Elm St"}
+     }
+     ```
+
+3. **Create a New Order**
+   - **Endpoint:** `POST /orders`
+   - **Description:** Create a new order.
+   - **Request:**
+     ```json
+     {
+       "product": "ProductY",
+       "quantity": 2,
+       "customer_name": "Bob Anderson",
+       "customer_address": "101 Pine St"
+     }
+     ```
+   - **Response:**
+     ```json
+     {
+       "message": "Order created successfully",
+       "order": {"_id": "new_order_id", "product": "ProductY", "quantity": 2, "customer_name": "Bob Anderson", "customer_address": "101 Pine St"}
+     }
+     ```
+
+4. **Update an Order by ID**
+   - **Endpoint:** `PUT /orders/<order_id>`
+   - **Description:** Update an existing order by its ID.
+   - **Request:**
+     ```json
+     {
+       "quantity": 10,
+       "customer_address": "Updated Address"
+     }
+     ```
+   - **Response:**
+     ```json
+     {
+       "message": "Order updated successfully",
+       "order": {"_id": "order_id", "product": "Updated Product", "quantity": 10, "customer_name": "Existing Name", "customer_address": "Updated Address"}
+     }
+     ```
+
+5. **Delete an Order by ID**
+   - **Endpoint:** `DELETE /orders/<order_id>`
+   - **Description:** Delete an existing order by its ID.
+   - **Response:**
+     ```json
+     {
+       "message": "Order deleted successfully"
+     }
+     ```
+
+    ### MongoDB Configuration:
+
+    - **Database:** `orders_db`
+    - **Connection URI:** `mongodb://localhost:27017/orders_db`
+
+---
+
 
 ### Problem
 Saat kami melakukan testing, ada beberapa error not found pada endpoint, padahal order_id tersebut ada pada collection di database
