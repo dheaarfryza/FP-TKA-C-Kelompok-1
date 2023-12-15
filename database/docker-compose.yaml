@@ -6,8 +6,8 @@ services:
     restart: always
     environment:
       MONGO_INITDB_DATABASE: orders_db
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: KiS3k!w0rLd
+      MONGO_INITDB_ROOT_USERNAME: [REDACTED]
+      MONGO_INITDB_ROOT_PASSWORD: [REDACTED]
     ports:
       - 27017:27017
     volumes:
