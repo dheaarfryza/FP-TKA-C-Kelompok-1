@@ -96,12 +96,6 @@ Dalam Final Project ini, kami diminta untuk mendesain arsitektur cloud terbaik y
 ---
 
 
-### Problem
-Saat kami melakukan testing, ada beberapa error not found pada endpoint, padahal order_id tersebut ada pada collection di database
-
-![Gambar WhatsApp 2023-12-13 pukul 11 17 40_51352f67](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/4c5e69ec-9ff9-46f3-aaa1-a5ea40c6ad5e)
-
-
 ## ii. Arsitektur Komputasi Awan dan Tabel Harga
 
 ### Case 1
@@ -139,6 +133,11 @@ Berikut merupakan Rancangan Arsitektur Komputasi Awan beserta Spesifikasi dan Ha
 Berikut merupakan gambaran diagram Arsitektur Komputasi yang telah ditentukan.
 
 ![clouddddddd-Halaman-2 drawio](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/a15285ff-d4be-4486-abb0-7ae0830ac1d1)
+
+### Problem
+Saat kami melakukan testing, ada beberapa error not found pada endpoint, padahal order_id tersebut ada pada collection di database
+
+![Gambar WhatsApp 2023-12-13 pukul 11 17 40_51352f67](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/4c5e69ec-9ff9-46f3-aaa1-a5ea40c6ad5e)
 
 
 ## iii. Langkah-langkah Implementasi dan Konfigurasi
