@@ -178,22 +178,21 @@ Berikut adala hasil pengujian setiap endpoint menggunakan postman:
 
 ## v. Hasil Pengujian dan Analisis Loadtesting Dengan Locust
 
-### Hasil Pengujian Locust pada topologi 1:
-
-Spawn rate 25 dan durasi waktu load testing 60 detik
-
-![Gambar WhatsApp 2023-12-15 pukul 15 14 32_43019490](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/0104e8ff-3591-4c48-8a22-a16aedb76c3d)
-
-Hasil RPS berdasarkan pengujian tersebut adalah `843.9`
-
-### Hasil Pengujian Locust pada topologi 2:
-
-Hasil RPS saat durasi waktu load testing 60 detik
+1. Hasil RPS saat durasi waktu load testing 60 detik
 
 ![Gambar WhatsApp 2023-12-15 pukul 15 05 17_2bb4b594](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/fb2ed283-2503-4711-b393-7d3b8d9b88e3)
 
 Hasil RPS topologi 2 berdasarkan pengujian tersebut adalah `1413.4`
 
+2. Spawn rate 25 dan durasi waktu load testing 60 detik
+
+![Gambar WhatsApp 2023-12-15 pukul 15 14 32_43019490](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/0104e8ff-3591-4c48-8a22-a16aedb76c3d)
+
+Hasil RPS berdasarkan pengujian tersebut adalah `843.9`
+
+3. spawn rate 50 dan durasi waktu load testing 60 detik
+
+4. spawn rate 100 dan durasi waktu load testing 60 detik
 
 
 ## vi. Kesimpulan dan Saran
