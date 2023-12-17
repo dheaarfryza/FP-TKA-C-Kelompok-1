@@ -216,6 +216,39 @@ Setelah itu, pilih nama unik database cluster nya dan klik `Create Database Clus
 
 ![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/1296a8ae-05b8-47be-8fe1-7172e13229f0)
 
+
+3. Create Load Balancers
+
+Klik `Create` dan pilih `Load Balancer`
+
+![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/67fe732e-bdfa-44fb-b388-ed34e37551ea)
+
+- Pilih Region Data Center
+
+Memilih region `Singapore`
+
+![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/da7611ce-986a-4a02-918f-743147e2bf84)
+
+- Tentukan Konfigurasi Scaling
+
+Pilih berapa node yang diinginkan, dari kami hanya butuh `1` dengan total cost `$12`
+
+![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/95bfcfc8-f34c-4e4e-ae03-fb90f8845260)
+
+- Tentukan Droplet dan HTTP Forward
+
+Untuk Droplet maka kami akan menghubungkan ke 7 Droplet AppWorker yang sudah dibuat dan untuk Protokol Load Balancer dan Droplet menggunakan `HTTP` dan Port kedua nya `80`
+
+![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/722d9f0f-13e0-47bf-a35e-950dd78a948f)
+
+- Pilih nama Load Balancer dan Finalisasi
+
+Menentukan nama dari Load Balancer yaitu `load-balancer` dan klik `Create Load Balancer`
+
+![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/bc2c5c83-ad31-4bef-a452-28c0a879315b)
+
+4. Docker
+
 Untuk memudahkan deployment kita menggunakan Docker di setiap droplets, untuk config selengkapnya dapat diakses melalui source code berikut:
 
 - Database
