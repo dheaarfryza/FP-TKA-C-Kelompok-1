@@ -284,8 +284,15 @@ Hasil RPS berdasarkan pengujian tersebut adalah `843.9`
 
 3. spawn rate 50 dan durasi waktu load testing 60 detik
 
-4. spawn rate 100 dan durasi waktu load testing 60 detik
+![WhatsApp Image 2023-12-17 at 19 55 42_a3b195f4](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/107184933/81534911-e85a-485d-bc8b-f6125a085bbd)
 
+Hasil RPS berdasarkan pengujian tersebut adalah `1250.6`
+
+5. spawn rate 100 dan durasi waktu load testing 60 detik
+
+![WhatsApp Image 2023-12-17 at 19 55 52_b3ab5941](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/107184933/2221316d-4d40-44a7-ae43-5645037c3a36)
+
+Hasil RPS berdasarkan pengujian tersebut adalah `1411.9`
 
 ## vi. Kesimpulan dan Saran
 
