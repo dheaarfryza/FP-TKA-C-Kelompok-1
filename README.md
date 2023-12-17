@@ -153,9 +153,68 @@ Kemudian dari gambar berikut juga terlihat jika terdapat overkill pada database
 Pada komputasi awan kami menggunakan platform DigitalOcean, dengan langkah-langkah sebagai berikut.
 
 1. Create Droplet
-   
-![Cuplikan layar 2023-12-15 152623aaa](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/12bfd0d6-9488-45dc-8dde-f24521c49b97)
 
+Untuk membuat droplet dari Worker klik `Create` lalu pilih `Droplets`
+![droplet1](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/02f010fb-6c9f-425f-97f1-0e0177358a30)
+
+- Pilih Region
+
+Memilih region, yaitu `Singapore`
+
+![droplet2](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/c3b6b100-2199-42b6-9692-8d2356f21900)
+
+- Pilih Image
+
+Selanjutnya memilih image OS yang diinginkan, dari kami memilih `Ubuntu`
+
+![droplet3](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/dd470147-1111-4e00-82ed-3980e2899e08)
+
+- Pilih Size CPU
+
+Pilih `Regular` dan `$6/mo` dengan ukuran 1 GB
+
+![droplet4](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/e4ce3db9-a8f3-429b-9cd0-fdc029f74891)
+
+- Pilih Metode Autentifikasi
+
+Kami memilih `Password` sebagai metode autentifikasi kami untuk dihubungkan ke Droplet sebagai 'root'
+
+![droplet5](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/c4736299-ad14-46b7-b213-6cb3e60c98b0)
+
+- Menentukan Hostname dll
+
+Menentukan jumlah Droplets yang ingin dibuat dan juga Hostname nya. Setelah semua selesai, klik `Create Droplet`
+
+![droplet6](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/c92719fc-4540-4889-985e-29a2ccb2c963)
+
+
+2. Create Database
+
+Untuk membuat database, klik `Create` dan pilih `Database`
+
+![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/1f114b50-7e08-4095-bd7a-0a87202d976f)
+
+- Pilih Region
+
+Sama seperti saat membuat Droplet, kami memilih `Singapore` sebagai region
+
+![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/4fafa3b5-687f-41c0-911e-918df2d29973)
+
+- Pilih Jenis Database 
+
+Untuk Database, kami memakai `mongoDB` sebagai Database
+
+![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/45a367c9-f182-437e-b0a0-f24f56f3aa70)
+
+- Pilih Konfigurasi Database
+
+![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/ce9ec152-45ad-4b8f-98c6-3d113ec8e7b5)
+
+- Menentukan Nama Cluster
+
+Setelah itu, pilih nama unik database cluster nya dan klik `Create Database Cluster` setelah semua selesai
+
+![image](https://github.com/dheaarfryza/FP-TKA-C-Kelompok-1/assets/89828723/1296a8ae-05b8-47be-8fe1-7172e13229f0)
 
 Untuk memudahkan deployment kita menggunakan Docker di setiap droplets, untuk config selengkapnya dapat diakses melalui source code berikut:
 
